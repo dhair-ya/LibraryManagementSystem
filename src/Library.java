@@ -3,7 +3,7 @@ import java.util.Random;
 
 
 public class Library {
-    ArrayList<LibraryItem> libraryItems;
+    ArrayList<LibraryItem> libraryItems = new ArrayList<>();
     Random random = new Random();
 
     void addLibraryItem(LibraryItem item) {
